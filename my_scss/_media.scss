@@ -1,0 +1,16 @@
+@media (min-width: 750px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        width: 75%;
+    }
+
+    .drawers-img-container {
+        border-radius: 8px 0 0 8px;
+
+        img {
+            height: 100%;
+            object-position: left;
+        }
+    }
+}

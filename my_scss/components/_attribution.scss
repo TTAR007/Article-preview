@@ -1,0 +1,9 @@
+@use "../functions" as *;
+
+.attribution {
+    font-size: rem(13);
+    text-align: center;
+    margin-block-start: 1rem;
+
+    a { color: hsl(228, 45%, 44%); }
+}

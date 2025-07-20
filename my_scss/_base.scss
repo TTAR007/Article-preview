@@ -1,0 +1,32 @@
+@use "variables" as *;
+@use "functions" as *;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+}
+
+body {
+    background-color: $Light-Grayish-Blue;
+    min-width: 320px ;
+    min-height: 100vh;
+
+    padding-block: 2rem;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+main {
+    width: 85%;
+    background-color: white;
+    border-radius: 8px;
+    // overflow: hidden;
+    margin-inline: auto;
+    max-width: 750px;
+}

@@ -1,0 +1,15 @@
+// variables and functions
+@use "variables";
+@use "functions";
+
+//base and reset
+@use "base";
+
+// main
+@use "components/main";
+
+//attribution
+@use "components/attribution";
+
+//media
+@use "media";

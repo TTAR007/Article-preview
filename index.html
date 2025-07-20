@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/index.css">
+  <script src="app.js" defer></script>
+  
+  <title>Frontend Mentor | Article preview component</title>
+</head>
+<body>
+
+  <main>
+    <figure class="drawers-img-container">
+      <img src="./images/drawers.jpg" width="660" height="528" alt="drawers">
+    </figure>
+
+    <article class="article-container">
+      
+      <article class="text-container">
+        <p id="main-text">
+          Shift the overall look and feel by adding these wonderful 
+          touches to furniture in your home
+        </p>
+        <p id="description-text">
+          Ever been in a room and felt like something was missing? Perhaps 
+          it felt slightly bare and uninviting. I’ve got some simple tips 
+          to help you make any room feel complete.
+        </p>
+      </article>
+  
+      <article id="author-container">
+        <section class="front-section">
+          <img class="profile-img author-info" src="./images/avatar-michelle.jpg" width="175" height="175" alt="avatar-michelle">
+          <div class="author-text author-info">
+            <p class="name">Michelle Appleton</p>
+            <p class="date">28 Jun 2020</p>
+          </div>
+          
+          <p class="share share-text close-share">Share</p>
+          <img class="share social-icon close-share" src="./images/icon-facebook.svg" width="20" height="20" alt="icon-facebook">
+          <img class="share social-icon close-share" src="./images/icon-twitter.svg" width="20" height="17" alt="icon-facebook">
+          <img class="share social-icon close-share" src="./images/icon-pinterest.svg" width="20" height="20" alt="icon-facebook">
+        </section>
+
+        <section id="share-button-container">
+          <img id="icon-share" src="./images/icon-share.svg" width="15" height="13" alt="icon-share">
+
+          <section id="share-desktop-container" class="close-share-desktop">
+            <div class="share-info-desktop"> 
+              <p class="share-desktop share-text ">Share</p>
+              <img class="share-desktop social-icon" src="./images/icon-facebook.svg" width="20" height="20" alt="icon-facebook">
+              <img class="share-desktop social-icon" src="./images/icon-twitter.svg" width="20" height="17" alt="icon-facebook">
+              <img class="share-desktop social-icon" src="./images/icon-pinterest.svg" width="20" height="20" alt="icon-facebook">
+              <div id="triangle"></div>
+            </div>
+          </section>
+        </section>
+
+      </article>
+
+    </article>
+  </main>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
